@@ -229,7 +229,7 @@ $(function() {
   socket.on('login', (data) => {
     connected = true;
     // Display the welcome message
-    var message = "Welcome to VR Gallery Chat – ";
+    var message = "Welcome to VR MoMA Chat – ";
     log(message, {
       prepend: true
     });
